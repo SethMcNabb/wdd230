@@ -18,7 +18,7 @@ img {
 }
 #name {
     padding-top: 15%;
-    font-weight: 500px;
+    font-weight: 500;
     padding-right: 5%;
 }
 #subtitle {
@@ -50,4 +50,10 @@ footer div {
 }
 #current-year {
     font-size: large;
+    
+}
+hr {
+    color: black;
+    width: 100%;
+    size: 3px;
 }
