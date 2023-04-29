@@ -9,7 +9,7 @@ header {
     color: white;
     font-size: x-large;
     border-radius: 25px;
-    padding: 15px;
+    padding: 10px;
     background-color: #33719C;
     text-align: center;
 }
@@ -22,7 +22,7 @@ img {
 #subtitle {
     font-size: x-large;
     font-weight: 500;
-    padding-top: 10px;
+    margin-bottom: 0px;
 }
 main {
     width: 40%;
@@ -30,6 +30,7 @@ main {
     margin: auto;
     text-align: center;
     grid-gap: 10px;
+    font-size: 19px;
 }
 main li {
     text-align: left;
@@ -50,6 +51,6 @@ footer {
     font-size: large;
 }
 ul {
-    border-top: black;
-    border-bottom: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
