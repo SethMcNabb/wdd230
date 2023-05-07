@@ -32,3 +32,17 @@ footer {
     padding: .5rem;
     text-align: center;
 }
+.colors {
+    background-color: grey;
+    width: 30%;
+    text-align: center;
+}
+.primary {
+    background-color: #FAFAFA;
+}
+.secondary {
+    background-color: #6dc0d5;
+}
+.accent {
+    background-color: #ffef9f;
+}
