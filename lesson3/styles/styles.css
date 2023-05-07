@@ -1,0 +1,34 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+header {
+    background-color: #6dc0d5;
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    display: flex; 
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: black;
+    font-size: large;
+    justify-content: space-around;
+}
+nav :hover {
+    background-color: #ffef9f;
+    color: black;
+}
+main {
+    background-color: #FAFAFA;
+    padding: 10px 25px;
+}
+footer {
+    background-color: #6dc0d5;
+    padding: .5rem;
+    text-align: center;
+}
