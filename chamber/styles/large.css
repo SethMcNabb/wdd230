@@ -1,0 +1,8 @@
+@media (min-width: 48em) {
+    nav {
+        grid-column: 3/4;
+    }
+    #hamButton {
+		display: none;
+	} 
+}
