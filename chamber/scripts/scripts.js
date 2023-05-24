@@ -1,5 +1,7 @@
 let date = new Date();
 let year = date.getFullYear();
+
+
 let dateString = date.toDateString();
 let dateLastModifiedLong = new Date(document.lastModified);
 let dateLastModified = dateLastModifiedLong.toDateString();
@@ -12,3 +14,9 @@ const navigation = document.querySelector('.navigation');
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
+
+
+const dayOfWeek = date.getDay();
+if (dayOfWeek ===1 || dayOfWeek ===2) {
+	document.getElementById("banner").style.display='block' 
+};
