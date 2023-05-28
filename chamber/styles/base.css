@@ -22,7 +22,7 @@ header img {
     flex-direction: column;
     margin-left: .5em;
 }
-h1 {
+h1,span {
     font-size: 1em;
     margin: 0;
     color: white;
@@ -119,6 +119,14 @@ section {
 .main-title {
 	position: absolute;
 	top: 10px;
+	right: 10px;
+	background: radial-gradient(#eee, #008566);
+	padding: .5em;
+	opacity: 0.8;
+}
+.join-button {
+    position: absolute;
+	bottom: 10px;
 	right: 10px;
 	background: radial-gradient(#eee, #008566);
 	padding: .5em;
