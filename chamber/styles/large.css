@@ -1,4 +1,4 @@
-@media (min-width: 48em) {
+@media (min-width: 1000px) {
 	header img {
 		margin-left: 5em;
 	}
@@ -6,7 +6,7 @@
 		width: 90%;
 	}*/
 	.grid-container {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 2fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
 	}
 	.events {

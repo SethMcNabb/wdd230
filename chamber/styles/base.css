@@ -13,7 +13,7 @@ header img {
 .header-top {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 /*header - title*/
 .title {
@@ -21,11 +21,14 @@ header img {
     text-align: left;
     flex-direction: column;
     margin-left: .5em;
-}
-h1,span {
-    font-size: 1em;
-    margin: 0;
+    font-size: large;
     color: white;
+}
+header h1 {
+    margin: 0;
+}
+div.title {
+    align-items: center;
 }
 /*header - banner*/
 #banner {
@@ -33,6 +36,9 @@ h1,span {
     background-color: #D3A15D;
     padding: .5em;
     display: none;
+    color: white;
+    font-size: 1em;
+    margin: 0;
 }
 /*header - nav*/
 #hamButton {
@@ -119,14 +125,14 @@ section {
 .main-title {
 	position: absolute;
 	top: 10px;
-	right: 10px;
+	left: 10px;
 	background: radial-gradient(#eee, #008566);
 	padding: .5em;
 	opacity: 0.8;
 }
 .join-button {
     position: absolute;
-	bottom: 10px;
+	bottom: 10px;   
 	right: 10px;
 	background: radial-gradient(#eee, #008566);
 	padding: .5em;
@@ -139,9 +145,13 @@ section h1 {
 	margin: 10px auto;
 	position: relative;
 }
-.herodiv img {
+.heroimg {
     width: 100%;
     height: auto;
+    object-fit: cover;
+}
+.weather {
+    color: black;
 }
 /*footer*/
 footer {

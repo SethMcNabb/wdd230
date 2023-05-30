@@ -19,7 +19,7 @@
     <header>
         <h1 id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
         <div class="header-top">        
-            <img class="logo" src="images/SanDiegoLogo.png" alt="Chamber of Commerce logo image">
+            <img class="logo" src="images/sandiegologo.png" alt="Chamber of Commerce logo image">
             <div class="title"> 
                 <h1>San Diego</h1>
                 <p><span>Chamber of Commerce</span></p>
@@ -41,14 +41,16 @@
         <!--events-->
         <section class="events">
             <h2>Events</h2>
-            <h1>Building Dedication</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatem hic ad impedit. Asperiores assumenda magnam ex exercitationem sint dolorum.</p>
+            <p>Building Dedication</p>
+            <p>Lorem ipsum dolor sit amet consectetu    r adipisicing elit. Quidem voluptatem hic ad impedit. Asperiores assumenda magnam ex exercitationem sint dolorum.</p>
         </section>    
         <!--herodiv-->
         <div class="herodiv">
             <h3 class="main-title">Welcome to San Diego</h3>
-            <picture> 
-                <img src="images/SanDiegoCity2.JPG"alt="CityScape">
+            <picture>
+                <source srcset="images/samplemedium.jpg" media="(min-width: 700px) and (max-width:899px)">
+                <source srcset="images/samplelarge.jpg" media="(min-width: 900px)">
+                <img class="heroimg" src="images/samplesmall.jpg" alt="W06sample">
             </picture>
                 <button class="join-button">Join the Chamber!</button>
         </div>
@@ -70,8 +72,10 @@
         <!--weather-->
         <section class="weather">
             <h2>Weather</h2>
-            <p>Partly Cloudly</p>
-            <p id="wind-speed"></p>
+            <p> <span class="temperature">-10</span> °F</p>
+            <p> <span class="windspeed">40</span> mph</p>
+            <hr>
+            <p> <span class="windchill"></span> °F</p>
             <p id="wind-chill"></p>
         </section>
         <!--join us-->
