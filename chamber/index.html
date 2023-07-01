@@ -57,11 +57,15 @@
         </section>
         <section class="weather">
             <h3>🌤️ Weather 🌧️</h3>
-            <p> <span class="temperature">-10</span> °F</p>
-            <p> <span class="windspeed">40</span> mph</p>
-            <hr>
-            <p> <span class="windchill"></span> °F</p>
-            <p id="wind-chill"></p>
+            <p>The temperature in San Diego is <span id="current-temp"></span> °F</p>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>Wind Speed = <span id="wind-speed"></span> mph</p>
+            <p>Wind Chill = <span id="windchill"></span></p>
+
+
         </section>
         <section class="join">
             <h3>Join the Chamber!</h3>
@@ -127,8 +131,6 @@
         </div>
         <p id="footer-info"></p>
     </footer>
-
-
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/windchill.js"></script>

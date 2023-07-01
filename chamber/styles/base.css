@@ -188,9 +188,6 @@ grid-row: 1/2;
 .event p, .weather p, .join p, .news p {
     font-size: medium;
 }
-.weather p {
-    font-size: large;
-}
 /*Discover Page*/ 
 .discover-layout {
     display: flex;
@@ -338,6 +335,18 @@ table {
     flex-direction: column;
     padding: 10px;
     border-spacing: 10px;
+}
+/*Contact Page*/
+.contact-us {
+    text-align: center;
+} 
+.contact-us hr {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #6B9080;
+    border-radius: 5px;
 }
 /* - - - Footer - - - */
 footer {
