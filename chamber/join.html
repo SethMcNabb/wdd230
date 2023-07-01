@@ -48,7 +48,100 @@
 
 
     <!--MAIN-->
+<main class="join-grid">
+    <form class="form" method="get" action="thankyou.html">
+        <h3>Member Sign-Up Form</h3>
+        <hr>
+        <label for="firstName">First Name*:</label>
+        <input type="text" id="firstName" name="firstName" required>
 
+        <label for="lastName">last Name*:</label>
+        <input type="text" id="lastName" name="lastName" required> 
+        
+        <label for="positionTitle">Position Title:</label>
+        <input type="text" id="positionTitle" name="positionTitle" pattern="[A-Za-z\s\-]{7,}">
+        
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="name" required>
+        
+        <label for="cellNumber">Cell Phone*:</label>
+        <input type="tel" id="cellNumber" name="cellNumber">
+
+        
+        <label for="businessName">Business Name*:</label>
+        <input type="text" id="businessName" name="businessName" required><br>
+
+        <h3>Select Membership Type</h3>
+        <hr>
+    
+        <div class="memberships">
+            <input type="checkbox" id="NP Membership"name="NP Membership">
+            <label for="NP Membership">Non-Profit Membership</label>
+
+            <input type="checkbox" id="bronze"name="bronze">
+            <label for="bronze">Bronze Membership</label>
+      
+            <input type="checkbox" id="silver"name="silver">
+            <label for="silver">Silver Membership</label>
+      
+            <input type="checkbox" id="gold"name="gold">
+            <label for="gold">Gold Membership</label>
+        </div>
+
+        <br><label for="businessDescription">Business Description:</label>
+        <textarea id="businessDescription" name="businessDescription" rows="4" cols="40"></textarea><br>
+
+        <input type="hidden" id="timestamp" name="timestamp">
+
+        <button type="submit" id="submit-form">Submit Form</button>
+
+    </form>
+    <table clas="form-table">
+        <thead>
+            <tr>
+                <th class="title" colspan="4" scope="colgroup">Membership Plans</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-headings">
+                <th></th>
+                <th>Non-Profit</th>
+                <th>Bronse</th>
+                <th>Silver</th>
+                <th>Gold</th>
+            </tr>
+            <tr>
+                <td>Early access to the annual business report</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>New member excusive t-shirt and hat each year</td>
+                <td>❌</td>
+                <td>✔</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>Acess to all quarterly VIP events</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+                <td>✔</td>
+            </tr>
+            <tr>
+                <td>50% 0ff tickets to all chamber-sponsored events</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔</td>
+
+            </tr>
+        </tbody>
+    </table>
+</main>
 
 
     <!--FOOTER-->
