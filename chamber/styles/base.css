@@ -122,8 +122,8 @@ section {
 }
 /*Main: Grid Layout*/ 
 .grid-container {
-	grid-template-columns: repeat(3, fr);
-	grid-template-rows: repeat(5, fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(5, 1fr);
 }
 .event {
     grid-column: 1/4;
@@ -217,7 +217,7 @@ grid-row: 1/2;
 }
 .discover-layout img {
     max-height: 300px;
-    max-width: auto;
+    width: auto;
     filter: blur(0em);
     transition: filter 1.0s;
 }
