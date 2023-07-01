@@ -1,0 +1,110 @@
+<!--OLD-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="San Diego Chamber of Commerce site, 123 San Diego BLVD, 555-555-5555">
+    <title>San Diego Chamber Of Commerce</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
+        <div class="header-top">        
+            <img class="logo" src="images/sandiegologo.webp" alt="San Diego Chamber of Commerce logo image">
+            <div class="title"> 
+                <h1>San Diego</h1>
+                <p><span>Chamber of Commerce</span></p>
+            </div>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Discover</a></li>
+                    <li><a href="">Directory</a></li>
+                    <li><a href="">Join</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+            <p id="header-info"></p>
+    </header>
+
+
+
+
+    
+    <main class="grid-container">
+        
+        <!--herodiv-->
+        <div class="herodiv">
+            <h3 class="main-title">Welcome to San Diego</h3>
+            <picture>
+                <source srcset="images/samplemedium.jpg" media="(min-width: 700px) and (max-width:899px)">
+                <source srcset="images/samplelarge.jpg" media="(min-width: 900px)">
+                <img class="heroimg" src="images/samplesmall.jpg" alt="W06sample">
+            </picture>
+                <button class="join-button">Join the Chamber!</button>
+        </div>  
+        
+        <!--events-->
+        <section class="events">
+            <h2>Events</h2>
+            <p>Building Dedication</p>
+            <p>Lorem ipsum dolor sit amet consectetu    r adipisicing elit. Quidem voluptatem hic ad impedit. Asperiores assumenda magnam ex exercitationem sint dolorum.</p>
+        </section>    
+        
+        <!--weather-->
+        <section class="weather">
+            <h2>Weather</h2>
+            <p> <span class="temperature">-10</span> °F</p>
+            <p> <span class="windspeed">40</span> mph</p>
+            <hr>
+            <p> <span class="windchill"></span> °F</p>
+            <p id="wind-chill"></p>
+        </section>
+        
+        <!--news-->
+        <section class="news">
+            <h2>News Release</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod rerum est porro placeat laboriosam. Cumque autem officiis laboriosam obcaecati dolores, consectetur quasi qui culpa placeat.</p>
+        </section>        
+        
+        <!--spotlights-->
+        <div class="spotlights">
+            <section>
+                <h2>Company Spotlight 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores omnis veritatis deleniti eligendi accusamus error ea consectetur facere perspiciatis earum quod repellat quas tempore dolore laboriosam quis labore, culpa sint.</p>
+            </section>
+            <section>
+                <h2>Company Spotlight 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id animi dignissimos ea tempora provident ad, reprehenderit eius quidem recusandae optio numquam, natus voluptate. Sit vel dolore, eligendi odio a architecto.</p>
+            </section>
+            <section>
+                <h2>Company Spotlight 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem optio expedita nulla laborum aliquid unde sequi doloribus eligendi ullam, animi, nostrum aut repudiandae sit. Quae eius libero quam omnis accusantium.</p>
+            </section>
+        </div>
+        
+        <!--join-->
+        <section class="join">
+            <h2>Join Us</h2>
+            <p>Join our chamber to be a part of the future of our city!</p>
+        </section>
+    </main>
+    <footer>
+        <p id="footer-info"></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

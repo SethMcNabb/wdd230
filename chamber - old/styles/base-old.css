@@ -1,0 +1,138 @@
+* {
+    font-family: 'Noto Sans', 'Open Sans',sans-serif;
+    box-sizing: border-box;
+}
+/*header*/
+header {
+    background-color: #008566;
+}
+header img {
+    width: 100px;
+    height: auto;
+}
+.header-top {
+    display: flex;
+}
+/*header title*/
+.title {
+    margin-left: 1em;
+    color: white;
+}
+header h1 {
+    margin: 0;
+}
+/*header banner*/
+#banner {
+    text-align: center;
+    padding: .5em;
+    display: none;
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    background-color: #d28e2d;
+}
+/*header nav*/
+#hamButton {
+	display: inline-block; 
+	position: absolute;
+	top: 10px;  
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+	color: navy;
+}
+.navigation {
+	display: flex;
+    padding: 0;
+    background-color: #d28e2d;
+}
+.navigation li {
+	display: none;
+}
+.navigation li a {
+	padding: 1.25rem;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.navigation li a:hover {
+    background-color: #0a5443;
+	color: white;
+}
+nav {
+    padding: .5em 1em;
+    margin: auto;
+}
+/*header script(s)*/
+#header-info {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    background-color: #5e8ba5;
+}
+/*main*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1em;
+}
+section {
+    background-color: #d7e6ed;
+    padding: .5em;
+}
+.main-title {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: radial-gradient(#eee, #5e8ba5);
+	padding: .5em;
+	opacity: 0.75;
+}
+.join-button {
+    position: absolute;
+	bottom: 10px;   
+	right: 10px;
+	background: radial-gradient(#eee, #5e8ba5);
+	padding: .5em;
+	opacity: 0.75;
+}
+.herodiv {
+	margin: 10px auto;
+	position: relative;
+}
+.heroimg {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+.weather {
+    color: black;
+}
+/*footer*/
+footer {
+    background-color: #008566;
+    padding: .5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo-footer {
+    width: 125px;
+    height: auto;
+}
+a {
+  margin: 0 5px;
+  text-decoration: none;
+}
+.social {
+    padding: 0 1em;
+}

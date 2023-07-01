@@ -1,0 +1,19 @@
+@media (min-width: 601px) {
+	/*nav button*/
+	#hamButton {
+		display: none;
+	} 
+	/*navigation*/
+	.navigation {
+		flex-direction: row;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	/*grid*/
+	.grid-container {
+		grid-template-columns: repeat(11, 1fr);
+		grid-template-rows: auto;
+	}
+}
