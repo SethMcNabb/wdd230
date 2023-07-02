@@ -10,8 +10,8 @@
 		flex: 1 1 auto;
 	}
 	.grid-container {
-		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(5, 1.5rem);
+		grid-template-columns: repeat(3, fr);
+		grid-template-rows: repeat(5, fr);
 	}
 	.event {
         grid-column: 1/3;
