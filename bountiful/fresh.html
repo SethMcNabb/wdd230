@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods official website. Find information about all 5 of our locations: Los Angeles, Newport, San Clemente, Carlsbad, San Diego. 619-630-9327">
+    <title>Bountiful Fruits</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Agdasima:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="title">
+            <h1>Bountiful Fresh Fruits and Vegetables</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fresh.html">Order</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+
+    <main class="join-layout">
+        <form id="drinkForm">
+            <h3>Build your favorite drink today!</h3>
+
+            <label for="firstName">First Name*:</label>
+            <input type="text" id="firstName" name="firstName" required>
+    
+            <label for="lastName">Last Name*:</label>
+            <input type="text" id="lastName" name="lastName" required> 
+            
+            <label for="email">Email*:</label>
+            <input type="email" id="email" name="name" required>
+            
+            <label for="cellNumber">Cell Phone*:</label>
+            <input type="tel" id="cellNumber" name="cellNumber">
+            
+            <label for="fruit1">Fruit 1:</label>
+            <select id="fruit1"></select>
+        
+            <label for="fruit2">Fruit 2:</label>
+            <select id="fruit2"></select>
+        
+            <label for="fruit3">Fruit 3:</label>
+            <select id="fruit3"></select>
+        
+            <label for="instructions">Special Instructions:</label><br>
+            <textarea id="instructions" rows="4" cols="50" placeholder="Add extra fruit!"></textarea><br><br>
+        
+            <input type="button" id="drink-card-submit" value="Submit A Drink!">
+         
+          </form>
+
+    </main>
+
+    <footer>
+        <section class="footer-layout">
+            <div class="contact-us">
+                <p>619-630-9327</p>
+                <p>info@bountifulfruits.com</p>
+                <a href="https://www.google.com/maps/place/The+Church+of+Jesus+Christ+of+Latter-day+Saints/@33.1608776,-117.3273257,3a,75y,58.14h,93.21t/data=!3m6!1e1!3m4!1s1LDlZvgPsphRysarf90oFg!2e0!7i16384!8i8192!4m16!1m9!3m8!1s0x80dc723a0573f74d:0xfb43b204080d26ad!2s1975+Chestnut+Ave,+Carlsbad,+CA+92008!3b1!8m2!3d33.1610408!4d-117.3270341!10e5!16s%2Fg%2F11b8vc4rmk!3m5!1s0x80dc723a04d41df7:0x787955d5b861e8e9!8m2!3d33.161324!4d-117.327032!16s%2Fg%2F1tfmj369?entry=ttu">Located at 📍 1975 Chestnut Avenue, Carlsbad, CA 92008</a>
+            </div>
+            <div class="social">
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="fb icon" width="40"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter icon" width="40"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram icon" width="40"></a>
+            </div>
+        </section>
+        <p id="last-modified"></p>
+    </footer>
+    
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

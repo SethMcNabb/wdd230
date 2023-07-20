@@ -1,0 +1,228 @@
+/*
+#3F612D dark green 
+#9EBC9E light green
+#ECE4B7 yellow 
+#ADD7F6 blue
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Agdasima', sans-serif;
+}
+img {
+    filter: blur(0em);
+    transition: filter 1.0s;
+}
+/*header*/
+header {
+    background-color: #9EBC9E;
+    padding-top: 1px;
+}
+.title {
+    text-align: center;
+}
+nav {
+    background-color: #3F612D;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: large;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+nav a:hover {
+    background-color:  #ADD7F6;
+    transition: all 1.0s;
+    color: black;
+}
+/*main*/
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+    padding: 15px;
+}
+.grid-container > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #ADD7F6;
+}
+.image1,.image2,.image3,.weather,.call-to-action,.locations,.business-info,.orders {
+    background-color: #ADD7F6;
+    text-align: center;
+}
+.weather,.call-to-action,.locations,.business-info,.orders {
+    padding: 15px;
+}
+.grid-container > img {
+    height: 200px;
+    width: auto;
+}
+.image1 {
+    padding-left: 27px;
+    padding-right: 27px;
+}
+#weather-icon {
+    background-color: white;
+    border-radius: 25px;
+}
+ul { 
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+}
+.moreinfo {
+    display: none;
+}
+.call-to-action a {
+    background-color: #566b7b;
+    border-radius: 10px;
+    color: white;   
+    padding: 10px;
+    font-size: x-large;
+}
+.weather h3{
+    font-size: xx-large;
+}
+.weather p,figure {
+    font-size: large;
+}
+.locations h3{
+    font-size: x-large;
+}
+.business-info h3 {
+    font-size: xx-large;
+}
+.business-info p {
+    font-size: large;
+}
+/*main - grid*/
+.grid-container {
+    grid-auto-columns: 1fr;
+    grid-template-rows: .5fr;
+    grid-auto-rows: 1fr;
+}    
+.image1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.image2{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.image3 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+}.weather {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.call-to-action {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.locations {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}.business-info {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+/*about us main*/
+.about-us-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    background-color: #ECE4B7;
+    justify-content: center;
+    align-content: center;
+}
+.history {
+    background-color: #ADD7F6;
+    font-size: large;
+}
+.history h3 {
+    font-size: x-large;
+}
+.about-us-grid > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+.history h3,.contact-info h3 {
+    background-color: #566b7b;
+    border-radius: 10px;
+    color: white;   
+    padding: 10px;
+    font-size: x-large;
+}
+.map {
+    background-color: #ADD7F6;
+    padding: 10px;
+}
+.contact-info {
+    background-color: #ADD7F6;
+    padding: 10px;
+    font-size: large;
+}
+/*fresh page*/
+.join-layout {
+    background-color: #ECE4B7;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+form{
+    grid-column: 2/3;
+}
+#drinkForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#drinkForm h3 {
+    text-align: center;
+    font-size: x-large;
+}
+/*footer*/
+footer {
+    background-color: #9EBC9E;
+}
+.footer-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 5px;
+    font-size: large;
+}
+.contact-us a {
+    text-decoration: none;
+    color: black;
+}
+.social img {
+    border-radius: 25px;
+}
+p#last-modified {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #3F612D;
+    color: white;
+}
